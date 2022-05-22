@@ -1,6 +1,6 @@
 const express = require('express');
 const nodemailer = require('nodemailer') ///for node mailer module
-require('dotenv').config()
+//require('dotenv').config()
 const app = express();
 
 
@@ -34,10 +34,10 @@ app.post('/send',(req,res) =>{
     console.log(name , email, message)
 })  
 
-const port =5656
+const port = process.env.PORT || 3000
 
 app.listen(port, () => {
-   console.log('connecting to port...')
+   console.log('connecting to port...' + port)
 })
  
 
