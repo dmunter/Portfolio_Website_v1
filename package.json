@@ -1,0 +1,26 @@
+{
+  "name": "portfolio2022",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmunter/Portfolio_Website_v2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmunter/Portfolio_Website_v2/issues"
+  },
+  "homepage": "https://github.com/dmunter/Portfolio_Website_v2#readme",
+  "description": ""
+}

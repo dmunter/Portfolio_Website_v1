@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "keywords" author = 'Drew Munter' >
+    <meta name="Portfolio website">
+    <link rel="stylesheet" href="css/newcss.css" type = "text/css">
+    <link rel="stylesheet" href="css/projects.css" type = "text/css">
+    <link rel="stylesheet" href="css/mobile.css" media = "handheld">
+    <script src="https://kit.fontawesome.com/a09b35bd87.js" crossorigin="anonymous"></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <script type="application/javascript" src="Javascript/script.js"></script>
+
+    <script type = "application/javascript">
+        if(screen.width <=699){
+            document.location= "mobile"
+        } 
+    
+    </script>
+    <aside class = "sidebar">
+        <div  class = "name">
+            <h2>Drew Munter</h2>
+            <p>Enthusiast. Computer Science. Curious.</p>
+        </div>
+        <div>
+            <ul>
+                <a href="#sectionHome"><li>Home</li></a>
+                <a href="#sectionEducation"><li>Education</li></a>
+                <a href="#sectionProjects"><li>Projects</li></a>
+                <a href="#sectionContact"><li>Contact</li></a>
+                <br>       
+            </ul>
+            <div class = "view-code"><a href ="https://github.com/dmunter">View my code for this website</a></div>
+        </div>
+        <div class = "social">
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/drew-munter-841013202/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/dmunter" target = "_blank"><i class="fab fa-github"> </i></a>
+        </div>
+    </aside>
+ 
+    <div class= "content">
+        <div class = "title-head">
+            <H1>Portfolio <em>Website</em> </H1>
+        </div>
+        <header class = "box">          
+            <div class = "c c1"></div>
+            <div class = "c c2"></div>
+            <div class = "c c3"></div>
+            <div class = "c c4"></div>          
+            <div class = "showcase"></div>
+            
+        </header>
+        
+        <div class="tabs">
+            <div id="sectionHome" ><h1>Hello There!</h1></div>
+            <div class = "main">   
+                <div  class ="about-tag">
+                    <div class = "about-tag-flag"> <h2>ABOUT</h2></div>
+                    <div class = "about-tag-line"></div>
+                </div>
+                <div class = "about-content">
+                    <p>Im student at University of South Dakota working towards a BS in Computer Science. </p>
+                    <p>I'm looking for a field to apply my knowledge learn from a team of for continious improvement</p>
+                </div>
+
+
+
+                <div id="sectionEducation" class = "skills-tag"> 
+                    <div class = "skills-tag-flag"> <h2>EDUCATION</h2></div>
+                    <div class = "skills-tag-line"></div>
+                </div>
+                <div class = "skills-content">
+                    <div class = "Education">
+                        <div class="skill-graphic">                       
+                        </div>
+                        <div class="logo-usd"></div>
+                        <div class="major grid-item">
+                            <p class = "education-font-styles">Expected Graduation - 2023</p>
+                            <p class = "education-font-styles">GPA - 3.5</p>
+                            <ul>
+                                <li>Major in Computer Science</li>
+                                <li>Minor in Mathmatics</li>
+                            </ul>
+                        </div>
+                    </div>    
+                    <div class="skills-skills">
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>Excel</li>
+                            <li>Github</li>
+                            <li>JavaScript</li>
+                            <li>Microsoft</li>
+                            <li>MySQL</li>
+                            <li>HTML</li>
+                            <li>NODE.JS</li>
+                        </ul>
+                    </div>
+            
+                </div>
+                <div id="sectionProjects" class = "projects-tag"> 
+                    <div class = "projects-tag-flag"> <h2>PROJECTS</h2></div>
+                    <div class = "projects-tag-line"></div>
+                </div>
+                <div class = "projects-content">
+                    <div class="Iowa">
+                        <div class = "grid">
+                            <div class="grid-1"></div>
+                            <div class="grid-2"></div>
+                            <div class="grid-3"></div>
+                        </div>
+                       
+                        <div class="project-left">
+                            <div class="title"><H2>Iowa Land Usage</H2></div>
+                            <div class="caption"><p>A script built to handle large data sets 
+                            given by open sourced government programs. Manipulates data as integer values
+                            to identifty land trends in multiple counties in the state of Iowa</p></div>
+                        </div>
+                        <div class="project-right">
+                            <div class="Iowa-img"></div>
+                        </div>
+                    </div>
+
+                    <div class="game-of-life">
+                        <div class = "grid">
+                            <div class="grid-1"></div>
+                            <div class="grid-2"></div>
+                            <div class="grid-3"></div>
+                        </div>
+                       
+                        <div class="project-left">
+                            <div class="title"><H2>Conways Game of Life</H2></div>
+                            <div class="caption"><p>The game life is a cellular automaton starting 
+                                with a single beginning state in which each evolution is determined by its previous state</p></div>
+                        </div>
+                        <div class="project-right">
+                            <div class="game-of-life-img"></div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="website-clone">
+                        <div class = "grid">
+                            <div class="grid-1"></div>
+                            <div class="grid-2"></div>
+                            <div class="grid-3"></div>
+                        </div>
+                       
+                        <div class="project-left">
+                            <div class="title"><H2>Website Clones</H2></div>
+                            <div class="caption"><p>Built multiple fully dynamic websites including a netflix landing page and 
+                                blog forums using HTML, JavaScript, and CSS 
+                            </p></div>
+                        </div>
+                        <div class="project-right website-clone-postioning">
+                            <div class="netflix-clone-img"></div>
+                        </div>
+                    </div> 
+                    
+                    
+                     
+                </div>
+
+            </div>  
+                
+                <div id="sectionContact" class ="contact">
+                    <div class="odd-break">  
+                        <div class="odd-tag"><h2>CONTACT</h2></div>  
+                        <div class = contact-box>
+                        <form id = "contact-form" action="send" method="POST">
+                            
+                            <h2>Name</h2> <input type="text" class="input-field" name="name" value ="<%= locals.firstName %>">
+                            <h2>Email</h2> <input type="text" class="input-field" name="email" value ="<%= locals.email %>">
+                            
+                            <h2>Message</h2><textarea name="message" class="input-field" rows="6" cols="25" value ="<%= locals.message %>"></textarea><br />
+                            <input type="submit" class = "submit"value="Send"><input type="reset" value="Clear">
+                            </form>
+                            
+                        </div>    
+                        
+                    </div>
+                    
+                </div>
+            <div>  
+                
+        </div>
+        
+    </div>
+    <div><h1></h1></div>
+</body>
+<script src="script.js"></script>
+</html>
