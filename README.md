@@ -5,9 +5,9 @@ This website provides insight on projects I have worked on. This is generally a 
 and other details as explained above. 
 
 Technologies used -
-Nodemailer
-express
-EJS
-nodemon
-AWS Alastic Beanstalk
+Nodemailer,
+express,
+EJS,
+nodemon,
+AWS Alastic Beanstalk,
 AWS code pipeline
