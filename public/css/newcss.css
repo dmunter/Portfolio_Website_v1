@@ -14,7 +14,9 @@ html{
   scroll-behavior: smooth;
   min-width: 1350px;
 }
-
+.aside{
+  min-width:260px
+}
 body {
   min-width: 1350px;
 }
@@ -103,12 +105,15 @@ body {
     opacity: 70%; 
     position: relative;
     font-size: small;
+    width: 175;
     top: 13vh;
-    left: 30%;
+    margin: 10 auto;
+    text-align: center;
   }
   .view-code:hover{ 
     text-decoration: underline;
   }
+
   .main{
       display: flex;
       flex-direction: column;
