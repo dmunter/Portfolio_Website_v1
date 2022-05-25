@@ -134,7 +134,9 @@ body {
     justify-content: space-between;
    
   }
-  
+  #sectionHome{
+    margin-bottom: 50px;
+  }
   .content {
     float: right;
     position: relative;
@@ -159,7 +161,7 @@ body {
     width: 100%;
     grid-gap: 20px;
     overflow: hidden;
-    
+    margin-bottom: 50px;
   }
   
   .box .c1:hover,
@@ -233,8 +235,12 @@ body {
     background-color: #f58874;
   }
   .about-content{
+    max-width: 75%;
+    margin: 0 auto;
     margin-bottom: 80px;
+    line-height: 1.6;
   }
+
   .skills-tag{
     height: 120px;
   }
@@ -372,13 +378,16 @@ body {
   .grid-item {
     box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
   }
+
   .skills-skills ul {
-    height: 120px ;
-   display: grid;
-   grid-template-columns: 33% 33% 33% ;
-  
-   color: #646464;
-   margin: auto;
+  list-style-type: small "/";
+  height: 120px ;
+  display: grid;
+  grid-template-columns: 33% 33% 33% ; 
+  color: #646464;
+  margin-left: 15%;
+  justify-items:left;
+  max-width: 75%;
   }
   
   .tabs h1 p {
