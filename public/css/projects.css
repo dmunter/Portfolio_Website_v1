@@ -31,16 +31,27 @@
         border: 3px solid #b3b3b3;
         padding: 5px;
         margin: 0 auto;
-        margin-top: 30px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .caption p{
+        margin: 5px;
       }
       .title{
-        top: -160%;
+        top: -160%;      
+        left: 5px;
+        margin-bottom: 18px;
         width: 100%;
         z-index: 9;
         font-style: italic;
         border-radius: 7px;
         background-color: rgba(254, 194, 130, .8);
       }
+      .title h2 {
+        margin: 0;
+        padding: 5px;
+      }
+
       .project-right{
         position: absolute;
         display: inline;
@@ -90,8 +101,39 @@
   box-shadow: inset 0px 0px 20px 10px rgba(117, 117, 117, 0.9), rgba(0, 0, 0, 0.35) 0px 10px 25px;
   
 }
-
-
+.react-quiz{
+  height:300px;
+  width: 500px;
+  align-items: center;
+  width: 75%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 80px;
+}
+.react-quiz .grid{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr) ;
+    grid-template-rows: repeat(12, 1f);
+    grid-gap:20px;
+    height: 300px;
+    width: 100%;
+    filter: blur(2px);
+}
+.react-img{
+  position: relative;
+  z-index: 9;
+  height: 200px;
+  width:250px ;
+  background-image: url('/img/quiz-image.jpg')  ;
+  opacity: .9;
+  filter: brightness(90%);
+  background-size:350px ;
+  background-position: -50px -30px;
+  box-shadow: inset 0px 0px 20px 2px rgba(170, 170, 170, 0.6), rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  opacity: .9;
+  cursor: pointer;
+}
 
 .game-of-life{
     height:300px;
@@ -100,7 +142,7 @@
     width: 75%;
     position: relative;
     z-index: 1;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .game-of-life-img{
     position: relative;
@@ -134,12 +176,12 @@
 .netflix-clone-img{
     position: relative;
     z-index: 9;
-    height: 120px;
-    width: 250px ;
+    height: 140px;
+    width: 260px ;
     opacity: .9;    
     background-image: url('/img/NetflixClone.png');
     background-position: center;
-    background-size:240px ;
+    background-size:280px ;
     box-shadow: rgba(76, 76, 78, 0.2) 0px 10px 35px 0px;
     transition: all 2s ease;
    

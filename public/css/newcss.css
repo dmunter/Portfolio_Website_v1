@@ -136,6 +136,10 @@ body {
   }
   #sectionHome{
     margin-bottom: 50px;
+
+  }
+  .hello-there{
+    font-weight: 300;
   }
   .content {
     float: right;
