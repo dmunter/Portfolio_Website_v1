@@ -84,10 +84,10 @@
     z-index: 9;
     height: 200px;
     width:250px ;
-    background-image: url('/img/Iowa.jpg')  ;
     opacity: .9;
     filter: brightness(90%);
     background-size:800px ;
+    background-image: url('/img/Iowa.jpg')  ;
     background-position: -50px -30px;
     box-shadow: inset 0px 0px 20px 10px rgba(170, 170, 170, 0.6), rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: all 1s ease;
@@ -101,6 +101,18 @@
   box-shadow: inset 0px 0px 20px 10px rgba(117, 117, 117, 0.9), rgba(0, 0, 0, 0.35) 0px 10px 25px;
   
 }
+.calendar-img{
+  position: relative;
+  z-index: 9;
+  height: 170px;
+  width:278px ;
+  opacity: .9;
+  filter: brightness(90%);
+  background-size:280px ;
+  background-position: 0px -55px;
+  background-image: url('/img/calendar.jpg');  
+}
+
 .react-quiz{
   height:300px;
   width: 500px;
