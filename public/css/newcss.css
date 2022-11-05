@@ -167,16 +167,7 @@ body {
     overflow: hidden;
     margin-bottom: 50px;
   }
-  
-  .box .c1:hover,
-  .c2:hover {
 
-    background-size: 980px;
-  }
-  .box .c3:hover,
-  .c4:hover {   
-    background-size: 980px;
-  }
   
   .showcase {
     background-image: url("/img/drewsketchnobck.png");
