@@ -115,7 +115,6 @@ a{
 }
 
 .react-redux-firebase-img{
-  
   position: relative;
     z-index: 9;
     height: 175px;
@@ -126,10 +125,25 @@ a{
     background-image: url('/img/message-board.jpg')  ;
     background-position: -50px 0px;
     box-shadow: inset 0px 0px 5px 5px rgba(170, 170, 170, 0.6), rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
 }
-
-
+.react-redux-firebase-img :hover{
+  cursor: pointer; 
+}
+.img-gen-img{
+  position: relative;
+    z-index: 9;
+    height: 175px;
+    width:270px ;
+    opacity: .9;
+    filter: brightness(90%);
+    background-size:350px ;
+    background-image: url('/img/imggen-showcase.png')  ;
+    background-position: -50px -10px;
+    box-shadow: inset 0px 0px 5px 5px rgba(170, 170, 170, 0.6), rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.img-gen-img :hover{
+  cursor: pointer;
+}
 .calendar-img{
   position: relative;
   z-index: 9;
