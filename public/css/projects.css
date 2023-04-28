@@ -71,6 +71,34 @@ a{
   color: black;
 }
 
+.intramurals{
+  height:300px;
+  width: 500px;
+  align-items: center;
+  width: 75%;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 80px;
+}
+
+.intramurals-img{
+  position: relative;
+  z-index: 9;
+  height: 200px;
+  width:270px ;
+  filter: brightness(90%);
+  background-size:350px ;
+  background-image: url('/img/intramurals.png')  ;
+  background-position: -35px -0px;
+  transition: all .5s ease;
+
+}
+
+.intramurals-img:hover{
+  box-shadow: 0px 10px 20px 5px rgba(78, 78, 78, 0.5);
+  transform: translateY(-2px);
+}
+
 .Iowa{
     height:300px;
     width: 500px;
@@ -101,7 +129,6 @@ a{
   background-position: -50px -15px;
   background-size:380px ;
   box-shadow: inset 0px 0px 20px 10px rgba(117, 117, 117, 0.9), rgba(0, 0, 0, 0.35) 0px 10px 25px;
-  
 }
 .react-redux-firebase{
   
@@ -125,9 +152,12 @@ a{
     background-image: url('/img/message-board.jpg')  ;
     background-position: -50px 0px;
     box-shadow: inset 0px 0px 5px 5px rgba(170, 170, 170, 0.6), rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all .5s ease;
 }
-.react-redux-firebase-img :hover{
+.react-redux-firebase-img:hover{
   cursor: pointer; 
+  box-shadow: 0px 10px 20px 5px rgba(78, 78, 78, 0.5);
+  transform: translateY(-2px);
 }
 .img-gen-img{
   position: relative;
@@ -140,9 +170,12 @@ a{
     background-image: url('/img/imggen-showcase.png')  ;
     background-position: -50px -10px;
     box-shadow: inset 0px 0px 5px 5px rgba(170, 170, 170, 0.6), rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all .5s ease;
 }
-.img-gen-img :hover{
+.img-gen-img:hover{
   cursor: pointer;
+  box-shadow: 0px 10px 20px 5px rgba(78, 78, 78, 0.5);
+  transform: translateY(-2px);
 }
 .calendar-img{
   position: relative;
@@ -154,8 +187,12 @@ a{
   background-size:280px ;
   background-position: 0px -55px;
   background-image: url('/img/calendar.jpg');  
+  transition: all .5s ease;
 }
-
+.calendar-img:hover {
+  box-shadow: 0px 10px 20px 5px rgba(78, 78, 78, 0.5);
+  transform: translateY(-2px);
+}
 .react-quiz{
   height:300px;
   width: 500px;
@@ -187,9 +224,14 @@ a{
   background-position: -50px -30px;
   box-shadow: inset 0px 0px 20px 2px rgba(170, 170, 170, 0.6), rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   opacity: .9;
+  transition: all .5s ease;
+
+}
+.react-img:hover{
+  box-shadow: 0px 10px 20px 5px rgba(78, 78, 78, 0.5);
+  transform: translateY(-2px); 
   cursor: pointer;
 }
-
 .game-of-life{
     height:300px;
     width: 500px;
@@ -214,8 +256,7 @@ a{
   }
 
   .game-of-life-img:hover{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 80px 0px;
-    background-image: url('/img/glider-gun.gif');  
+   background-image: url('/img/glider-gun.gif');  
   }
 
   
